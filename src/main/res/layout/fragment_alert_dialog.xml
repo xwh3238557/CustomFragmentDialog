@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="15dp"
+    app:contentPadding="5dp"
+    app:cardBackgroundColor="@color/alert_dialog_background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7">
+            <TextView
+                android:id="@+id/message_view"
+                android:textSize="18sp"
+                android:textColor="@android:color/primary_text_dark"
+                android:text="Message"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:gravity="end|center_vertical"
+            android:layout_weight="3">
+            <Button
+                android:id="@+id/left_button"
+                android:textSize="13sp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:text="CANCLE"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/right_button"
+                android:textSize="13sp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:text="CONFIRM"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

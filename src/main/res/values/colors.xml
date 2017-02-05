@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_dialog_background">#0099ff</color>
+    <color name="alert_dialog_background">#008be7</color>
+    
+    <drawable name="background_g">#666666</drawable>
+</resources>
